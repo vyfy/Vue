@@ -15,10 +15,10 @@
             <q-item clickable v-close-popup @click="$router.push('/')">
               <q-item-section>Главная</q-item-section>
             </q-item>
-            <q-item clickable v-close-popup @click="$router.push('/test-info')">
+            <q-item clickable v-close-popup @click="$router.push('/profile-post')">
               <q-item-section>Форма</q-item-section>
             </q-item>
-            <q-item clickable v-close-popup @click="$router.push('/profile-post')">
+            <q-item clickable v-close-popup @click="$router.push('/test-info')">
               <q-item-section>Текст задания</q-item-section>
             </q-item>
           </q-list>

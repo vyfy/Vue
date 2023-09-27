@@ -1,18 +1,32 @@
 <template>
   <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
-    <div>TEXT HERE</div>
+    <div class="q-pa-md row items-start q-gutter-md">
+    <q-card class="my-card">
+      <img src="~assets/quasar-logo-vertical.svg">
+
+      <q-card-section>
+        <div class="text-h5">Тестовое задание</div>
+        <div class="text-subtitle2 text-bold">by Влад Черкашин</div>
+      </q-card-section>
+
+      <q-card-section class="q-pt-none">
+        Приветствую. Данный проект представляет собой исполнение тестового задания с
+         помощью Vue/Quasar/Axios. С помощью основного меню можно перейти на соответствующие разделы проекта,
+          как, например, получить полную информацию о нем.
+      </q-card-section>
+    </q-card>
+    </div>
   </q-page>
 </template>
 
 <script>
-import { defineComponent } from 'vue'
-
-export default defineComponent({
+export default {
   name: 'IndexPage'
-})
+}
 </script>
+
+<style lang="sass" scoped>
+.my-card
+  width: 100%
+  max-width: 250px
+</style>
