@@ -30,7 +30,7 @@
         <q-carousel-slide name="map" class="column no-wrap flex-center">
           <q-icon name="terrain" size="56px" />
           <div class="q-mt-md text-center">
-            <h5>Страница2 - Текст тестового задания.</h5>
+            <h5>4. Страница2 - Текст тестового задания.</h5>
           </div>
         </q-carousel-slide>
       </q-carousel>
